@@ -1,0 +1,16 @@
+; config.ini
+
+[DATABASE]
+HOST = examplehost
+PORT = 5432
+NAME = databsename
+USER = dhimaswahyuwibisono
+PASSWORD = password
+
+[CLOUDSTORAGE]
+BUCKET = bucket-name/path-to-bucket
+~                                                                                                                                                                                       
+~                                                                                                                                                                                       
+~                                                                                                                                                                                       
+~                                                                                                                                                                                       
+~                      
