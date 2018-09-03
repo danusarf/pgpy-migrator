@@ -1,16 +1,13 @@
 ; config.ini
 
 [DATABASE]
-HOST = examplehost
+HOST = db-host.cg2e5lmmel4p.ap-southeast-1.rds.amazonaws.com-or-specify-ip-address
 PORT = 5432
-NAME = databsename
-USER = dhimaswahyuwibisono
-PASSWORD = password
+NAME = source_database_name
+USER = username_of_database
+PASSWORD = password_of_database
+INSTANCENAME = "gcloud_db_name"
 
 [CLOUDSTORAGE]
-BUCKET = bucket-name/path-to-bucket
-~                                                                                                                                                                                       
-~                                                                                                                                                                                       
-~                                                                                                                                                                                       
-~                                                                                                                                                                                       
-~                      
+BUCKET = bucket-name
+BUCKET_SUBFOLDER = /path-to-file
